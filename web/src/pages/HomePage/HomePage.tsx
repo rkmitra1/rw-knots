@@ -22,6 +22,7 @@ const Articles = [
   },
   {
     title: 'Barrel Knot',
+    image: 'barrel.png',
     steps: [
       'left hand - hold rope facing right',
       'wrap around hand - three times',
@@ -31,7 +32,17 @@ const Articles = [
 
   {
     title: 'Double Fisherman knot',
-    steps: ['create loop', 'or connect two same size ropes'],
+    image: 'double_fishermans.png',
+    steps: [
+      'can create loop or connect two same size ropes',
+      'rope ends facing each other',
+      'loop right-facing end over left-facing rope twice',
+      'pull end through to knot',
+      'turn ropes over (so right is now facing left)',
+      'repeat: (previous left-facing end is now pointing right)',
+      'loop right-facing end over left-facing rope twice',
+      'pull end through to knot',
+    ],
   },
   {
     title: 'Prusik Hitch',
@@ -80,6 +91,18 @@ const Articles = [
   {
     title: 'Double Overhand Stopper Knot',
     steps: ['overhand bight', 'pull end around bight twice', 'pull to tighten'],
+  },
+  {
+    title: 'Double Figure 8 Knot',
+    steps: ['like a regular figure 8 knot with two bunny ears'],
+  },
+  {
+    title: 'EDK - Eurpean Death Knot',
+    steps: [
+      'simple, strong, knot',
+      'two ends, facing same way',
+      'overhand knot and dress',
+    ],
   },
 ]
 
