@@ -5,6 +5,10 @@ module.exports = {
   purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    screens: {
+      xs: '540px',
+      ...defaultTheme.screens,
+    },
     extend: {
       fontFamily: {
         nunito: ['nunito', 'sans-serif'],

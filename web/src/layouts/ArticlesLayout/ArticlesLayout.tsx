@@ -7,25 +7,19 @@ type ArticleLayoutProps = {
 
 const ArticlesLayout = ({ children }: ArticleLayoutProps) => {
   return (
-    <div className="rw-scaffold">
+    <div className="">
       <Toaster />
       <header className="rw-header">
         <h1 className="rw-heading rw-heading-primary">
-          <Link
-            to={routes.articles()}
-            className="rw-link"
-          >
+          <Link to={routes.articles()} className="rw-link">
             Articles
           </Link>
         </h1>
-        <Link
-          to={routes.newArticle()}
-          className="rw-button rw-button-green"
-        >
+        <Link to={routes.newArticle()} className="rw-button rw-button-green">
           <div className="rw-button-icon">+</div> New Article
         </Link>
       </header>
-      <main className="rw-main">{children}</main>
+      <main className="">{children}</main>
     </div>
   )
 }

@@ -11,3 +11,10 @@
 /**
  * END --- TAILWIND GENERATOR EDIT
  */
+
+ @layer utilities {
+  .square {
+    @apply aspect-w-1 aspect-h-1
+  }
+}
+
