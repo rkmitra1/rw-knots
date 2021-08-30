@@ -41,10 +41,12 @@ export const Articles = [
   },
   {
     title: 'Prusik Hitch',
+    image: 'prusik.png',
     steps: ['use loop'],
   },
   {
     title: 'Bowline - fixed',
+    image: 'fixed_bowline.png',
     steps: [
       'knot',
       'end trough loop',
@@ -54,6 +56,7 @@ export const Articles = [
   },
   {
     title: 'Bowline - one hand',
+    image: 'one_hand_bowline.png',
     steps: [
       'bight up',
       'bight around both standing lines',
@@ -62,10 +65,12 @@ export const Articles = [
   },
   {
     title: 'Girth Hitch',
+    image: 'girth.png',
     steps: ['bight around attachment', 'pull through loop'],
   },
   {
     title: 'Taut Line Hitch',
+    image: 'taut.png',
     steps: [
       'bight in rope',
       'pull bight from bottom rope throuch bight',
@@ -77,6 +82,7 @@ export const Articles = [
   },
   {
     title: 'Ashley’s Stopper Knot',
+    image: 'ashley.png',
     steps: [
       'Take end, loop, and tie knot around working line,',
       'pull free end through the loop',
@@ -85,18 +91,30 @@ export const Articles = [
   },
   {
     title: 'Double Overhand Stopper Knot',
-    steps: ['overhand bight', 'pull end around bight twice', 'pull to tighten'],
+    image: 'double_overhand.png',
+    steps: [
+      'overhand knot',
+      'pull end around inside of knot twice',
+      'pull to tighten',
+    ],
   },
   {
     title: 'Double Figure 8 Knot',
+    image: 'double_figure_8.png',
     steps: ['like a regular figure 8 knot with two bunny ears'],
   },
   {
     title: 'EDK - Eurpean Death Knot',
+    image: 'edk.png',
     steps: [
       'simple, strong, knot',
       'two ends, facing same way',
       'overhand knot and dress',
     ],
+  },
+  {
+    title: 'Alpine Butterfly Knot',
+    image: 'alpine.png',
+    steps: ['good for tieing in middle of rope'],
   },
 ]

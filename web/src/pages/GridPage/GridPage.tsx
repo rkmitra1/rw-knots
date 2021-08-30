@@ -24,11 +24,11 @@ const GridPage = () => {
 
           {Articles.map((article) => (
             <>
-              <div className="prose bg-white border-2 border-blue-700 rounded-2xl">
+              <div className="prose text-blue-700 border-2 border-blue-700 rounded-2xl">
                 {article.image && (
                   <img
                     src={article.image}
-                    className="w-full mx-auto bg-gray-100 rounded-t-2xl min-h-[300px] max-h-[300px] object-contain"
+                    className="w-full mx-auto bg-white rounded-t-2xl min-h-[300px] max-h-[300px] object-contain"
                     alt="rope"
                   />
                 )}
