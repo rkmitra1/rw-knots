@@ -69,8 +69,8 @@ export const Articles = [
     steps: ['bight around attachment', 'pull through loop'],
   },
   {
-    title: 'Taut Line Hitch',
-    image: 'taut.png',
+    title: 'Truckers Hitch',
+    image: 'truckers.png',
     steps: [
       'bight in rope',
       'pull bight from bottom rope throuch bight',
@@ -116,5 +116,14 @@ export const Articles = [
     title: 'Alpine Butterfly Knot',
     image: 'alpine.png',
     steps: ['good for tieing in middle of rope'],
+  },
+  {
+    title: 'Taut Line Hitch',
+    image: 'taut.png',
+    steps: [
+      'loop around anchor',
+      'two half hitches around inside of loop',
+      'one half hitch around outside of loop ',
+    ],
   },
 ]
